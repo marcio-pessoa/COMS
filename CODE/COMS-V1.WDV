@@ -1,0 +1,56 @@
+;COMS-V1 file information control - low level -
+;COMS-V1, copyright (c) 1995-1999
+;by: Marcio de Sousa Pessoa
+;Last build: Jan 19th, 1999
+
+
+[Data]
+Title=COMS v1
+DeviceInterfaceCombinations=8
+
+
+[Output]
+OutName0=Saida 1
+OutAct0=1
+OutName1=Saida 2
+OutAct1=2
+OutName2=Saida 3
+OutAct2=4
+OutName3=Saida 4
+OutAct3=8
+OutName4=Saida 5
+OutAct4=16
+OutName5=Saida 6
+OutAct5=32
+OutName6=Saida 7
+OutAct6=64
+OutName7=Saida 8
+OutAct7=128
+;...
+OutName127=*
+OutAct127=*
+
+
+[Input]
+InpName0=*
+InpAct0=*
+;...
+InpNAme127=*
+InpAct127=*
+
+
+[Keyboard]
+Keyb0=1
+Keyb1=2
+Keyb2=3
+Keyb3=4
+Keyb4=5
+Keyb5=6
+Keyb6=7
+Keyb7=8
+;...
+;Keyb127=*
+
+
+[Controls]
+Keyboard=1
